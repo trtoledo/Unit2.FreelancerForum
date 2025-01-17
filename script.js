@@ -1,39 +1,4 @@
-// const addtlFreelancerNames = [
-//     "Daniel",
-//     "Julio",
-//     "Maria",
-//     "Cristina",
-//     "John",
-//     "Juliet",
-//     "Marco",
-//   ];
-//   const addtlFreelancerOccupations = [
-//     "Plumber",
-//     "Electrician",
-//     "English Teacher",
-//     "Accountant",
-//     "Pianist",
-//     "Web Developer",
-//   ];
-//   const addtlStartingPrices = [50, 60, 65, 70, 75, 80, 85, 90, 100, 110, 120];
-  
-//   const freelancers = [
-//     {
-//       name: "Alice",
-//       occupation: "Writer",
-//       startingPrice: 30,
-//     },
-//     {
-//       name: "Bob",
-//       occupation: "Teacher",
-//       startingPrice: 50,
-//     },
-//   ];
-//   const maxFreelancers = 15;
-
-//element to update for the table
 const freelancerTable = document.querySelector(".freelance-table-body");
-//global variables for average price calculation
 const avgPriceElement = document.querySelector(".avg-price");
 let totalPrice = 0;
 let priceNumber = 0;
